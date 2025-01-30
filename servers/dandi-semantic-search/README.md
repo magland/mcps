@@ -2,6 +2,8 @@
 
 This MCP server provides semantic search functionality for DANDI datasets.
 
+This is based on embedding vectors for [these summaries](https://github.com/magland/ai_generated_dandiset_summaries). Right now there is no mechanism to automatically update the embeddings based on new dandisets being added or dandisets being updated.
+
 ## Overview
 
 The server connects to the DANDI Semantic Search API endpoint to find datasets based on natural language queries. It returns a list of DANDI dataset IDs ordered by relevance to the query.
