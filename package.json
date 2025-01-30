@@ -1,0 +1,17 @@
+{
+  "name": "mcps",
+  "version": "0.1.0",
+  "description": "Collection of MCP servers for scientific research",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "dandi-semantic-search": {
+      "command": "node",
+      "args": ["/home/magland/src/mcps/servers/dandi-semantic-search/build/index.js"],
+      "env": {
+        "DANDI_SEMANTIC_SEARCH_API_KEY": "<GET SECRET FROM JFM>"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
